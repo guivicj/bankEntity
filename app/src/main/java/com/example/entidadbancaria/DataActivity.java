@@ -29,8 +29,8 @@ public class DataActivity extends AppCompatActivity {
         findViewById(R.id.btnDeposit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int cantidad = Integer.parseInt(editBalance.getText().toString());
-                balance += cantidad;
+                double amount = Double.parseDouble(editBalance.getText().toString());
+                balance += amount;
                 updateBalance();
             }
         });
@@ -38,7 +38,7 @@ public class DataActivity extends AppCompatActivity {
         findViewById(R.id.btnWithdraw).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int amount = Integer.parseInt(editBalance.getText().toString());
+                double amount = Double.parseDouble(editBalance.getText().toString());
                 if (balance >= amount) {
                     balance -= amount;
                     updateBalance();
