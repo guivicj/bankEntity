@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Entité Bancaire</string>
+    <string name="welcome_message">Bienvenue dans l\'application</string>
+    <string name="log_in">Se connecter</string>
+    <string name="exit">Sortir</string>
+    <string name="balance">Solde</string>
+    <string name="amount_hint">Montant</string>
+    <string name="deposit">Déposer</string>
+    <string name="withdraw">Retirer</string>
+    <string name="dni_hint">DNI</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="denied_access">Accès refusé</string>
+    <string name="not_enough_balance">Solde insuffisant</string>
+</resources>

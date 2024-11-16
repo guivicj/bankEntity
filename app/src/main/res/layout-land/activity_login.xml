@@ -31,7 +31,7 @@
 
         <Button
             android:id="@+id/enter_app"
-            android:layout_width="@dimen/button_width"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:text="@string/log_in"
@@ -39,7 +39,7 @@
 
         <Button
             android:id="@+id/exit_app"
-            android:layout_width="@dimen/button_width"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="@string/exit"
             android:textSize="@dimen/text_size" />

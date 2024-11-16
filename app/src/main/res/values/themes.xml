@@ -1,9 +1,34 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.EntidadBancaria" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema general de la aplicación -->
+    <style name="Theme.MyBankApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colores predeterminados -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="imageViewSrc">@drawable/logo_santander</item>
     </style>
 
-    <style name="Theme.EntidadBancaria" parent="Base.Theme.EntidadBancaria" />
+    <!-- Tema para Banco Santander -->
+    <style name="Theme.BancoSantander" parent="Theme.MyBankApp">
+        <item name="colorPrimary">@color/colorPrimarySantander</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDarkSantander</item>
+        <item name="colorAccent">@color/colorAccentSantander</item>
+        <item name="android:windowBackground">@color/windowBackgroundSantander</item>
+        <item name="android:textColorPrimary">@color/textColorSantander</item>
+        <item name="imageViewSrc">@drawable/logo_santander</item>
+    </style>
+
+    <!-- Tema para BBVA -->
+    <style name="Theme.BBVA" parent="Theme.MyBankApp">
+        <item name="colorPrimary">@color/colorPrimaryBBVA</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDarkBBVA</item>
+        <item name="colorAccent">@color/colorAccentBBVA</item>
+        <item name="android:windowBackground">@color/windowBackgroundBBVA</item>
+        <item name="android:textColorPrimary">@color/textColorBBVA</item>
+        <item name="imageViewSrc">@drawable/logo_bbva</item>
+    </style>
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Entidad Bancaria</string>
+    <string name="welcome_message">Bienvenido a la aplicación</string>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="exit">Salir</string>
+    <string name="balance">Saldo</string>
+    <string name="amount_hint">Cantidad</string>
+    <string name="deposit">Ingresar</string>
+    <string name="withdraw">Retirar</string>
+    <string name="dni_hint">DNI</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="denied_access">Acceso denegado</string>
+    <string name="not_enough_balance">Saldo insuficiente</string>
+</resources>

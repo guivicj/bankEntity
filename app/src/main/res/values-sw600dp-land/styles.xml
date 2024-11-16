@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo Banco Santander -->
+    <style name="Theme.BancoSantander" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#E50027</item>
+        <item name="colorPrimaryDark">#B3001F</item>
+        <item name="colorAccent">#FFDD00</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+    <!-- Estilo BBVA -->
+    <style name="Theme.BBVA" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#0033A1</item>
+        <item name="colorPrimaryDark">#002173</item>
+        <item name="colorAccent">#00AEEF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+</resources>

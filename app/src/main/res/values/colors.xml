@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Colores generales -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="textColorPrimary">#000000</color>
+
+    <!-- Colores Santander -->
+    <color name="colorPrimarySantander">#E50027</color>
+    <color name="colorPrimaryDarkSantander">#B3001F</color>
+    <color name="colorAccentSantander">#FFDD00</color>
+    <color name="windowBackgroundSantander">#FFFFFF</color>
+    <color name="textColorSantander">#000000</color>
+
+    <!-- Colores BBVA -->
+    <color name="colorPrimaryBBVA">#0033A1</color>
+    <color name="colorPrimaryDarkBBVA">#002173</color>
+    <color name="colorAccentBBVA">#00AEEF</color>
+    <color name="windowBackgroundBBVA">#F5F5F5</color>
+    <color name="textColorBBVA">#FFFFFF</color>
 </resources>

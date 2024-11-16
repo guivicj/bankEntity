@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">entidadBancaria</string>
+    <string name="app_name">Banking Entity</string>
+    <string name="welcome_message">Welcome to the app</string>
+    <string name="log_in">Log In</string>
+    <string name="exit">Exit</string>
+    <string name="balance">Balance</string>
+    <string name="amount_hint">Amount</string>
+    <string name="deposit">Deposit</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="dni_hint">DNI</string>
+    <string name="password_hint">Password</string>
+    <string name="denied_access">Access Denied</string>
+    <string name="not_enough_balance">Not Enough Balance</string>
 </resources>
